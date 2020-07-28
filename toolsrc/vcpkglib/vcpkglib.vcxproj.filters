@@ -246,6 +246,12 @@
     <ClCompile Include="..\src\vcpkg\base\unicode.cpp">
       <Filter>Source Files\vcpkg\base</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\vcpkg\buildenvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\vcpkg\export.prefab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h">
@@ -457,6 +463,15 @@
     </ClInclude>
     <ClInclude Include="..\include\vcpkg\base\unicode.h">
       <Filter>Header Files\vcpkg\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vcpkg\base\ignore_errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vcpkg\buildenvironment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vcpkg\export.prefab.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
